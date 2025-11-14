@@ -11,7 +11,7 @@ import dotenv
 
 dotenv.load_dotenv()
 
-genai.configure(api_key="AIzaSyCEG26F0IqKOtXXgDWwqYrViQBgm8h9B4o")
+genai.configure(api_key="YOUR-GEMINI-API-KEY")
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 st.set_page_config(layout="wide")
@@ -250,3 +250,4 @@ while True:
 
 cam.release()
 cv2.destroyAllWindows()
+
